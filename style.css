@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+body{
+   /* background-image: url(./pexels-marcin-dampc-1684187.jpg); */
+    background-image: url(./new\ year.webp);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: -18rem;
+}
+.count-container{
+    display: flex;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 1;
+    margin: 0 16px;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 17px;
+}
